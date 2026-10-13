@@ -1,6 +1,6 @@
 # Dance Institute of Denver
 
-A complete static website using warm beige, dark forest green, dusty pink, maroon details and a restrained wood trim. The studio directory replaces the original landing-page redesign with compact pages and direct navigation.
+A complete static website using warm beige, dark forest green, dusty pink, maroon details and a restrained wood trim, custom studio crest and ribbon-and-branch illustration. The studio directory replaces the original landing-page redesign with compact pages and direct navigation.
 
 ## Pages
 
@@ -25,7 +25,8 @@ The original main navigation and child-page paths are preserved:
 
 No installation or production build is required. Serve this directory with any static host. The generated HTML files are already included and can be opened directly.
 
-- `styles.css`: palette, navigation, responsive layouts.
+- `styles.css`: palette, navigation, responsive layouts; 16px main text and controls, 14px secondary text, and 12px decorative labels.
+- `studio-seal.svg`, `studio-sprig.svg`, `woodgrain.svg`: lightweight vector identity details.
 - `script.js`: navigation and class filtering.
 - `classes.json`: class directory data.
 - `page-content.json`: supporting page copy.

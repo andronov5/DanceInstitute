@@ -3,7 +3,7 @@
 // Navigation stays fully visible if JavaScript is unavailable.
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#site-navigation');
-const narrowScreen = matchMedia('(max-width: 720px)');
+const narrowScreen = matchMedia('(max-width: 820px)');
 function setMenu(open) {
   navigation.hidden = narrowScreen.matches && !open;
   menuButton.setAttribute('aria-expanded', String(open));
