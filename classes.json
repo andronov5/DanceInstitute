@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Baby Moves",
+    "age": "Parent & baby",
+    "duration": "45 min",
+    "audience": "baby",
+    "styles": "combo",
+    "min": 0,
+    "max": 2,
+    "description": "Movement, music and play with a parent. Ask the studio about age suitability."
+  },
+  {
+    "name": "Combo: ages 3–4",
+    "age": "3–4 years",
+    "duration": "60 min",
+    "audience": "kids",
+    "styles": "combo ballet tap tumbling",
+    "min": 3,
+    "max": 4,
+    "description": "Ballet, tap and tumbling."
+  },
+  {
+    "name": "Combo: ages 4–5",
+    "age": "4–5 years",
+    "duration": "60 min",
+    "audience": "kids",
+    "styles": "combo ballet tap tumbling",
+    "min": 4,
+    "max": 5,
+    "description": "Ballet, tap and tumbling."
+  },
+  {
+    "name": "Combo: ages 5–7",
+    "age": "5–7 years",
+    "duration": "60 min",
+    "audience": "kids",
+    "styles": "combo ballet tap tumbling",
+    "min": 5,
+    "max": 7,
+    "description": "Ballet, tap and tumbling."
+  },
+  {
+    "name": "Combo: ages 6–9",
+    "age": "6–9 years",
+    "duration": "75 min",
+    "audience": "kids",
+    "styles": "combo ballet tap jazz",
+    "min": 6,
+    "max": 9,
+    "description": "Ballet, tap and jazz."
+  },
+  {
+    "name": "Combo: ages 8–11",
+    "age": "8–11 years",
+    "duration": "90 min",
+    "audience": "kids",
+    "styles": "combo ballet tap jazz lyrical",
+    "min": 8,
+    "max": 11,
+    "description": "Ballet, tap, jazz and lyrical."
+  },
+  {
+    "name": "Intro to Hip-Hop",
+    "age": "5–7 years",
+    "duration": "45 min",
+    "audience": "kids",
+    "styles": "hiphop",
+    "min": 5,
+    "max": 7,
+    "description": "An introduction to hip-hop."
+  },
+  {
+    "name": "Hip-Hop 1",
+    "age": "7–10 years",
+    "duration": "60 min",
+    "audience": "kids",
+    "styles": "hiphop",
+    "min": 7,
+    "max": 10,
+    "description": "Hip-hop training and choreography."
+  },
+  {
+    "name": "Hip-Hop 2",
+    "age": "10–13 years",
+    "duration": "60 min",
+    "audience": "kids",
+    "styles": "hiphop",
+    "min": 10,
+    "max": 13,
+    "description": "Hip-hop training and choreography."
+  },
+  {
+    "name": "Hip-Hop 3",
+    "age": "14+ & adults",
+    "duration": "60 min",
+    "audience": "adult",
+    "styles": "hiphop",
+    "min": 14,
+    "max": 99,
+    "description": "Open to teens and adults."
+  },
+  {
+    "name": "Adult Tap",
+    "age": "Adults",
+    "duration": "45 min",
+    "audience": "adult",
+    "styles": "tap",
+    "min": 18,
+    "max": 99,
+    "description": "All levels welcome."
+  },
+  {
+    "name": "Pre-Pointe",
+    "age": "By placement",
+    "duration": "Ask studio",
+    "audience": "placement",
+    "styles": "ballet",
+    "min": null,
+    "max": null,
+    "description": "Preparation for pointe with individual skills assessments."
+  },
+  {
+    "name": "Pointe",
+    "age": "By placement",
+    "duration": "Ask studio",
+    "audience": "placement",
+    "styles": "ballet",
+    "min": null,
+    "max": null,
+    "description": "Three levels. Instructor placement required."
+  },
+  {
+    "name": "Advanced techniques",
+    "age": "By placement",
+    "duration": "Ask studio",
+    "audience": "placement",
+    "styles": "jazz lyrical contemporary",
+    "min": null,
+    "max": null,
+    "description": "Four advanced levels of jazz, lyrical and contemporary."
+  },
+  {
+    "name": "Musical Theater",
+    "age": "Confirm age / level",
+    "duration": "60 min",
+    "audience": "placement",
+    "styles": "theater jazz tap",
+    "min": null,
+    "max": null,
+    "description": "Broadway-style jazz, tap and stage presence."
+  },
+  {
+    "name": "Leaps, Turns & Tricks",
+    "age": "Confirm age / level",
+    "duration": "60 min",
+    "audience": "placement",
+    "styles": "technique",
+    "min": null,
+    "max": null,
+    "description": "Focused work on leaps, turns and tricks. Ask the studio about level placement."
+  }
+]

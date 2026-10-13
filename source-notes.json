@@ -1,0 +1,89 @@
+{
+  "checked": "2026-10-13 UTC",
+  "originalNavigation": {
+    "Home": "/",
+    "Dance Classes": "/adult-kids-dance-classes/",
+    "About": [
+      "/about/",
+      "/about/studio-policies/",
+      "/about/teachers/",
+      "/about/partners/"
+    ],
+    "Schedule": [
+      "/class-schedule/",
+      "/summer-schedule/"
+    ],
+    "Nutcracker": "/nutcracker/",
+    "Register": "/registration/",
+    "Contact": "/contact/"
+  },
+  "sources": [
+    {
+      "url": "https://www.danceinstitutedenver.com/about/",
+      "used": "Mission, combination classes, parent viewing and parent organization, community performances, September–June school year.",
+      "caveat": "About says no competitions while classes page mentions competition requirements. Rebuild intentionally avoids either assertion pending studio clarification."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/about/teachers/",
+      "used": "Only teacher biography present is Miss Michele; University of Minnesota training and assistant teaching; studio opened 2005."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/about/studio-policies/",
+      "used": "Clothing, hair, closed water bottle, no gum or jewelry, no hanging on barres, quiet parent viewing."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/about/partners/",
+      "used": "Neighborhood Music listed as friend of Dance Institute.",
+      "caveat": "Original partner website is malformed relative link and returns 404. Used verified current official organization site instead."
+    },
+    {
+      "url": "https://www.ensembleschools.com/neighborhood-music/about/",
+      "used": "Current Neighborhood Music website, phone (720) 378-3668, Stanley Marketplace address."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/class-schedule/",
+      "used": "Original timetable labeled 2026–2027.",
+      "caveat": "Web parser does not expose timetable rows or a PDF asset. Kept an explicit original timetable link plus actual Sawyer classes URL. Direct HTML request was blocked 403; no schedule invented."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/summer-schedule/",
+      "used": "Program types and Sawyer Camps/Events registration route.",
+      "caveat": "Page explicitly lists Summer 2025. All old dates and camp prices omitted, current availability delegated to Sawyer/studio."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/nutcracker/",
+      "used": "Ages 8+, placement audition procedure, role-dependent rehearsals.",
+      "caveat": "Main text says Aug 23 while site sidebar says Aug 29, and dates appear from different seasons. No specific dates, price or current attendance policy asserted."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/registration/",
+      "used": "Published tuition, discounts, $25 membership, Trot’n Tots and workshop pricing, membership flow, studio waitlist explanation."
+    },
+    {
+      "url": "https://www.hisawyer.com/dance-institute-denver/schedules/membership-plans",
+      "used": "Live 2026–2027 membership offerings: general $25 and unlimited $275/month; trial option.",
+      "caveat": "Unlimited is a nine-month non-renewing term and general is one-year auto-renewing. Final terms remain in Sawyer."
+    },
+    {
+      "url": "https://www.hisawyer.com/dance-institute-denver/schedules/membership-plans/92678",
+      "used": "Working free trial page; says choose class from schedule and attend, then register with general membership."
+    },
+    {
+      "url": "https://www.hisawyer.com/dance-institute-denver/schedules",
+      "used": "Working class schedule endpoint; JS-driven listing not extracted by web parser."
+    },
+    {
+      "url": "https://www.hisawyer.com/dance-institute-denver/schedules?schedule_id=camps",
+      "used": "Working Camps/Events endpoint."
+    },
+    {
+      "url": "https://www.hisawyer.com/dance-institute-denver/auth/log-in",
+      "used": "Working parent login endpoint."
+    },
+    {
+      "url": "https://www.danceinstitutedenver.com/contact/",
+      "used": "Studio phone, address, current live contact form.",
+      "caveat": "The contact-form and original timetable links depend on the original domain remaining online. Before domain cutover replace the original contact link with a real form endpoint, and bring the verified timetable local or rely on Sawyer."
+    }
+  ]
+}

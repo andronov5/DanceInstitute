@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "about/",
+    "title": "About the studio",
+    "section": "About",
+    "description": "Studio history, teaching approach and community.",
+    "body": "<div class=\"prose\"><p>Dance Institute brings technical dance training into a friendly, encouraging studio. Our goal is a well-rounded dance education that builds confidence, poise and a lasting love of movement.</p></div><dl class=\"detail-list\"><div><dt>A little of everything</dt><dd>Combination classes teach several dance styles in one class, leaving room for other interests.</dd></div><div><dt>Parents are part of it</dt><dd>Watch from the designated viewing area and connect through the Dance Institute Parent Organization.</dd></div><div><dt>Connected to our community</dt><dd>Students perform at community events, retirement homes and the annual June recital.</dd></div><div><dt>A year of progress</dt><dd>The school year runs from September through June. Summer workshops give new and returning dancers more time in the studio.</dd></div></dl><nav class=\"link-list\" aria-label=\"Explore the studio\"><a href=\"@/about/teachers/\">Meet our teacher <span aria-hidden=\"true\">↗</span></a><a href=\"@/about/studio-policies/\">Before your first class <span aria-hidden=\"true\">↗</span></a><a href=\"@/about/partners/\">Our community partners <span aria-hidden=\"true\">↗</span></a></nav>"
+  },
+  {
+    "slug": "about/studio-policies/",
+    "title": "Studio policies",
+    "section": "About",
+    "description": "Clothing, shoes, hair and classroom guidelines.",
+    "body": "<div class=\"prose\"><h2>Before class</h2><p>Bring the right dance shoes and a closed water bottle. Dancewear is available through the studio.</p></div><dl class=\"detail-list\"><div><dt>Clothing</dt><dd>The studio lists black short-sleeve leotards and pink tights for girls through age nine. Leotards and tights are the base attire; ballet skirts and dance pants for jazz, tap and hip-hop are welcome. Boys may wear dance pants and a T-shirt. Clothing should allow movement without being loose or baggy.</dd></div><div><dt>Hair</dt><dd>Keep hair away from the face. A bun works well for long hair; pigtails are recommended for tumbling.</dd></div><div><dt>In the studio</dt><dd>Follow your teacher’s directions. No hanging on ballet barres, chewing gum or wearing jewelry. Unsafe behavior may mean sitting out.</dd></div><div><dt>Watching class</dt><dd>Parents are welcome in the viewing area. Please keep conversations outside the class.</dd></div></dl><a class=\"button button-secondary\" href=\"tel:+13035250011\">Ask about class attire <span aria-hidden=\"true\">↗</span></a>"
+  },
+  {
+    "slug": "about/teachers/",
+    "title": "Teachers",
+    "section": "About",
+    "description": "Meet Miss Michele.",
+    "body": "<div class=\"split-content\"><figure class=\"portrait\"><img src=\"https://www.danceinstitutedenver.com/wp-content/uploads/2026/07/missMichelle-600x736-c-default.webp\" alt=\"Miss Michele, Dance Institute teacher\" width=\"600\" height=\"736\" loading=\"lazy\"></figure><div class=\"prose\"><h2>Miss Michele</h2><p>Michele began dancing at three and assisting in ballet, jazz, tap and tumbling classes at fourteen. Her teaching combines careful technique with a playful atmosphere that adapts to each age group.</p><p>She studied at the University of Minnesota, where she performed, choreographed and assisted with tap and ballroom courses. Her training spans ballet, tap, jazz, hip-hop, modern, tumbling and ballroom.</p><p>Dance Institute has been family-owned and operated since opening in 2005.</p><a class=\"button button-secondary\" href=\"@/adult-kids-dance-classes/\">Explore the classes <span aria-hidden=\"true\">↗</span></a></div></div>"
+  },
+  {
+    "slug": "about/partners/",
+    "title": "Partners",
+    "section": "About",
+    "description": "More ways to grow through the arts.",
+    "body": "<div class=\"prose\"><h2>Neighborhood Music</h2><p>A friend of Dance Institute, Neighborhood Music offers music lessons at Stanley Marketplace. Explore piano, voice, guitar, ukulele, strings and more.</p></div><dl class=\"detail-list\"><div><dt>Visit</dt><dd>2501 Dallas Street, Suite 130<br>Aurora, CO 80010</dd></div><div><dt>Call</dt><dd><a href=\"tel:+17203783668\">(720) 378-3668</a></dd></div></dl><a class=\"button button-secondary\" href=\"https://www.ensembleschools.com/neighborhood-music/about/\" target=\"_blank\" rel=\"noopener noreferrer\">Visit Neighborhood Music <span aria-hidden=\"true\">↗</span></a>"
+  },
+  {
+    "slug": "class-schedule/",
+    "title": "Dance schedule",
+    "section": "Schedule",
+    "description": "Current class times and enrollment availability.",
+    "body": "<div class=\"prose\"><h2>Classes &amp; availability</h2><p>View class times and enrollment options in Sawyer. For help with age groups or level placement, call the studio.</p><p><a class=\"button\" href=\"https://www.hisawyer.com/dance-institute-denver/schedules\" target=\"_blank\" rel=\"noopener noreferrer\">Open class schedule <span aria-hidden=\"true\">↗</span></a></p></div><nav class=\"link-list\" aria-label=\"Schedule resources\"><a href=\"https://www.danceinstitutedenver.com/class-schedule/\" target=\"_blank\" rel=\"noopener noreferrer\">Studio timetable · 2026–2027 <span aria-hidden=\"true\">↗</span></a><a href=\"@/adult-kids-dance-classes/\">Compare class styles and ages <span aria-hidden=\"true\">↗</span></a><a href=\"@/summer-schedule/\">Summer camps and workshops <span aria-hidden=\"true\">↗</span></a><a href=\"tel:+13035250011\">Placement help · (303) 525-0011 <span aria-hidden=\"true\">↗</span></a></nav><p class=\"note\">Ready to join? Start with <a href=\"@/registration/\">registration and tuition</a>.</p>"
+  },
+  {
+    "slug": "summer-schedule/",
+    "title": "Summer schedule",
+    "section": "Schedule",
+    "description": "Summer camps, workshops and intensive training.",
+    "body": "<div class=\"prose\"><p>Explore summer dance camps, art afternoons, hip-hop and intensive training. Check Sawyer for available camps and events, or contact the studio for upcoming summer dates and placement.</p><p><a class=\"button\" href=\"https://www.hisawyer.com/dance-institute-denver/schedules?schedule_id=camps\" target=\"_blank\" rel=\"noopener noreferrer\">Browse camps &amp; events <span aria-hidden=\"true\">↗</span></a></p></div><dl class=\"detail-list\"><div><dt>Dance camps</dt><dd>Programs have included ballet, tap, tumbling, jazz and hip-hop, grouped by age and experience.</dd></div><div><dt>Art afternoons</dt><dd>Ask the studio about combining morning dance with afternoon art.</dd></div><div><dt>Summer intensive</dt><dd>Ballet and contemporary/jazz training for dancers seeking focused technique work.</dd></div><div><dt>Nutcracker preparation</dt><dd>Extra ballet practice ahead of placement auditions.</dd></div></dl><p class=\"note\">For upcoming session dates and availability, use Sawyer or call <a href=\"tel:+13035250011\">(303) 525-0011</a> for the next available session.</p>"
+  },
+  {
+    "slug": "nutcracker/",
+    "title": "The Nutcracker",
+    "section": "Nutcracker",
+    "description": "Auditions, placement and performance information.",
+    "body": "<div class=\"prose\"><p>Dance Institute’s Nutcracker brings dancers together for ballet, rehearsals and performance. Contact the studio for this season’s audition details, rehearsal times and fees.</p></div><dl class=\"detail-list\"><div><dt>Who can audition?</dt><dd>The studio’s published audition information welcomes dancers ages eight and older.</dd></div><div><dt>What happens?</dt><dd>Dancers learn a short ballet routine and perform for the teaching panel, individually or in small groups. These are placement auditions to assign roles.</dd></div><div><dt>What should I wear?</dt><dd>Arrive in fitted dance clothing with hair secured. Ask the studio if you need help preparing.</dd></div><div><dt>Rehearsals &amp; registration</dt><dd>Rehearsal commitments depend on the role. Confirm the current schedule with the studio and look for registration under Camps/Events in Sawyer.</dd></div></dl><div class=\"link-list\"><a href=\"tel:+13035250011\">Ask about The Nutcracker · (303) 525-0011 <span aria-hidden=\"true\">↗</span></a><a href=\"https://www.hisawyer.com/dance-institute-denver/schedules?schedule_id=camps\" target=\"_blank\" rel=\"noopener noreferrer\">Open Camps/Events in Sawyer <span aria-hidden=\"true\">↗</span></a></div>"
+  },
+  {
+    "slug": "registration/",
+    "title": "Registration",
+    "section": "Register",
+    "description": "Tuition, memberships and enrollment.",
+    "body": "<div class=\"prose\"><h2>Register through Sawyer</h2><p>Choose a membership, select Learn More, then follow the registration steps. Already enrolled? Sign in to your existing Sawyer account.</p><p><a class=\"button\" href=\"https://www.hisawyer.com/dance-institute-denver/schedules/membership-plans\" target=\"_blank\" rel=\"noopener noreferrer\">Choose a membership <span aria-hidden=\"true\">↗</span></a> <a class=\"button button-secondary\" href=\"https://www.hisawyer.com/dance-institute-denver/auth/log-in\" target=\"_blank\" rel=\"noopener noreferrer\">Parent sign in <span aria-hidden=\"true\">↗</span></a></p><h2>Tuition</h2></div><table class=\"info-table fee-table\"><caption>Published monthly tuition</caption><thead><tr><th scope=\"col\">Weekly class length</th><th scope=\"col\">Monthly tuition</th></tr></thead><tbody><tr><th scope=\"row\">45 minutes</th><td>$75</td></tr><tr><th scope=\"row\">1 hour</th><td>$80</td></tr><tr><th scope=\"row\">1 hour 15 minutes</th><td>$85</td></tr><tr><th scope=\"row\">1 hour 30 minutes</th><td>$90</td></tr><tr><th scope=\"row\">Unlimited classes</th><td>$275</td></tr></tbody></table><dl class=\"detail-list\"><div><dt>Annual membership</dt><dd>$25 per dancer for general membership.</dd></div><div><dt>Multiple classes</dt><dd>Two classes: 5% discount. Three: 10%. Four: 15%.</dd></div><div><dt>Other options</dt><dd>Trot’n Tots: $80 for six weeks. Workshops: $25 each, or included with unlimited membership.</dd></div><div><dt>First class?</dt><dd>Sawyer offers a free trial. Check the class schedule, try a class, then choose general membership to continue.</dd></div></dl><nav class=\"link-list\" aria-label=\"Registration help\"><a href=\"https://www.hisawyer.com/dance-institute-denver/schedules/membership-plans/92678\" target=\"_blank\" rel=\"noopener noreferrer\">View free trial details <span aria-hidden=\"true\">↗</span></a><a href=\"tel:+13035250011\">Questions or a waitlist? Call (303) 525-0011 <span aria-hidden=\"true\">↗</span></a></nav><p class=\"note\">The studio uses waitlists to apply the appropriate discounts. Final membership terms and payment details appear in Sawyer.</p>"
+  },
+  {
+    "slug": "contact/",
+    "title": "Contact",
+    "section": "Contact",
+    "description": "Phone, directions and registration support.",
+    "body": "<div class=\"split-content\"><div class=\"prose\"><h2>Call the studio.</h2><p>Questions about a first class, placement or enrollment? Call the studio and we’ll help you find the right starting point.</p><p><a class=\"button\" href=\"tel:+13035250011\">(303) 525-0011 <span aria-hidden=\"true\">↗</span></a></p></div><div><dl class=\"detail-list\"><div><dt>Find us</dt><dd>Dance Institute of Denver<br>10515 E 40th Ave, #114<br>Denver, CO 80239</dd></div></dl><p><a class=\"button button-secondary\" href=\"https://www.google.com/maps/search/?api=1&amp;query=Dance%20Institute%20of%20Denver%2010515%20E%2040th%20Ave%20Denver%20CO%2080239\" target=\"_blank\" rel=\"noopener noreferrer\">Get directions <span aria-hidden=\"true\">↗</span></a></p></div></div><nav class=\"link-list\" aria-label=\"More ways to get in touch\"><a href=\"https://www.danceinstitutedenver.com/contact/\" target=\"_blank\" rel=\"noopener noreferrer\">Send a message to the studio <span aria-hidden=\"true\">↗</span></a><a href=\"https://www.hisawyer.com/dance-institute-denver/auth/log-in\" target=\"_blank\" rel=\"noopener noreferrer\">Manage an existing registration in Sawyer <span aria-hidden=\"true\">↗</span></a></nav>"
+  },
+  {
+    "slug": "privacy-policy/",
+    "title": "Privacy policy",
+    "section": "Privacy",
+    "description": "Studio SMS privacy and messaging information.",
+    "body": "<div class=\"prose\"><p>This page summarizes Dance Institute, LLC’s published SMS terms.</p><h2>Information &amp; use</h2><p>SMS signup may collect your name, email, mailing address and phone number through forms, email, rental agreements or reservation systems. Data is used for studio service messages, stored securely and retained while subscribed. You may request deletion at any time.</p><h2>Messages &amp; charges</h2><p>Messages recur at varying frequencies. Carrier message and data charges may apply. Carriers are not responsible for delayed or undelivered messages.</p><h2>Help &amp; opting out</h2><p>Reply HELP for assistance. Reply STOP or UNSUBSCRIBE to opt out, or contact the studio at <a href=\"tel:+13035250011\">(303) 525-0011</a>. The studio sends a final confirmation and removes your number within 24 hours.</p><h2>Sharing</h2><p>Mobile information is not shared with third parties or affiliates for marketing. SMS consent and opt-in information are not shared. Information may be shared with subcontractors providing support services.</p></div>"
+  }
+]

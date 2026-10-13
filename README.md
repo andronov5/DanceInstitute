@@ -1,45 +1,53 @@
 # Dance Institute of Denver
 
-A custom, responsive dance-class website built with HTML, CSS and vanilla JavaScript. The design uses editorial typography, warm paper tones, a deep-red accent, real photography from the existing website, and restrained motion.
+A complete static website using warm beige, dark forest green, dusty pink, maroon details and a restrained wood trim. The studio directory replaces the original landing-page redesign with compact pages and direct navigation.
 
-## Run
+## Pages
 
-Open `index.html` directly, or serve this directory with any static web server. No build step, package installation, API key, or backend is required.
+The original main navigation and child-page paths are preserved:
 
-## Files
+- Home — `/`
+- Dance Classes — `/adult-kids-dance-classes/`
+- About — `/about/`
+  - Studio Policies — `/about/studio-policies/`
+  - Teachers — `/about/teachers/`
+  - Partners — `/about/partners/`
+- Schedule (navigation group)
+  - Dance Schedule — `/class-schedule/`
+  - Summer Schedule — `/summer-schedule/`
+- Nutcracker — `/nutcracker/`
+- Register — `/registration/`
+- Contact — `/contact/`
+- Privacy Policy — `/privacy-policy/` (concise summary of the published SMS policy)
+- Sitemap — `/sitemap/`
 
-- `index.html` — page content, navigation, FAQ and accessible class dialog.
-- `styles.css` — responsive layout, typography and reduced-motion support.
-- `script.js` — class catalog, age/style filters, shareable filter URLs, dialog and mobile menu.
+## Run and edit
 
-## Features
+No installation or production build is required. Serve this directory with any static host. The generated HTML files are already included and can be opened directly.
 
-- Six visitor age groups and seven style filters, with a reset and empty state.
-- Class details with real registration and schedule destinations.
-- Placement-based programs explicitly ask visitors to confirm suitability.
-- Adult-class shortcut, keyboard-accessible native modal and expandable FAQ.
-- Mobile layouts, visible keyboard focus, skip link and reduced-motion behavior.
-- No analytics, visitor storage, frameworks or invented reviews.
+- `styles.css`: palette, navigation, responsive layouts.
+- `script.js`: navigation and class filtering.
+- `classes.json`: class directory data.
+- `page-content.json`: supporting page copy.
+- `build.py`: shared layout, Home and Dance Classes templates.
+- `source-notes.json`: verified sources and known content gaps.
 
-## Content and integrations
+After editing templates or JSON, run `python build.py`. This uses only Python’s standard library and regenerates all 13 pages. All local paths are relative, including nested About pages, so the site also works under a GitHub Pages repository prefix.
 
-The program descriptions, studio address and telephone come from the existing Dance Institute website. The studio schedule and registration links remain external; Sawyer handles memberships and booking. Program offerings should be reviewed by the studio before launch because the source website includes older program descriptions.
+## Functional behavior
 
-Sources reviewed October 13, 2026:
+Classes are rendered in HTML and remain readable without JavaScript. Filters combine age, style and search; class details expand in place. Combination classes appear under their individual dance styles. Unknown age/level programs have their own placement filter rather than being presented as age-eligible. Filter URLs are shareable. Mobile navigation and submenu controls use explicit expanded states, and the full navigation remains visible without JavaScript.
 
-- https://www.danceinstitutedenver.com/adult-kids-dance-classes/
-- https://www.danceinstitutedenver.com/
-- https://www.danceinstitutedenver.com/about/teachers/
-- https://www.danceinstitutedenver.com/about/studio-policies/
-- https://www.danceinstitutedenver.com/class-schedule/
-- https://www.hisawyer.com/dance-institute-denver/schedules/membership-plans
+Sawyer handles real memberships, trials, payment and enrollment. Telephone and map links use the verified studio contact details. There is no simulated form submission or invented timetable.
 
-Photographs currently load from the existing WordPress website, and fonts from Google Fonts with system fallbacks. Before replacing that host, copy the approved photographs into this repository and update their image paths so they survive the migration. The new typographic `di` mark is part of this redesign, not a reproduction of the current logo.
+## Before a domain migration
 
-## Hosting
+No hosting or DNS was changed by this update. The current studio contact form and original timetable still open on `danceinstitutedenver.com`; migrate these to a verified form backend and timetable asset before replacing that domain. Otherwise their links would resolve to the replacement pages themselves. Current class availability is also linked directly in Sawyer.
 
-This folder can be hosted as a static site on Netlify or GitHub Pages. Set the publish directory to the repository root; no build command is needed. No deployment, domain or DNS change is performed by these source files. Retain the existing site until the replacement is approved and the remaining linked pages have a migration plan.
+Photographs load from the existing WordPress site. Copy approved images locally before removing that host. Google Fonts has system-font fallbacks. Restore the studio-approved full privacy policy before production cutover; the included privacy page is a concise SMS-policy summary.
 
-## Verification
+Published class information and tuition were reviewed against the current site; conflicting Nutcracker dates and outdated summer dates were omitted. Ask the studio to confirm current offerings before launch.
 
-JavaScript syntax, HTML references, CSS structure and the filter boundary logic were checked. A supported interactive browser was not available in the development environment, so visual layout and live booking should be reviewed on desktop and mobile before launch.
+## Validation
+
+Checked the generated page structure, local routes and assets, unique IDs, alternative text, JavaScript syntax, and interactive state with a DOM test harness. Verified mobile-menu state, age/style/search behavior, placement separation, empty results, reset and shareable query strings. Interactive browser rendering was unavailable in this environment, so visual browser verification remains outstanding.
