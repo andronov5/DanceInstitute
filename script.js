@@ -57,7 +57,7 @@ if (filters) {
       if (matches) visible++;
       else item.open = false;
     }
-    document.querySelector('#results-count').textContent = `${visible} ${visible === 1 ? 'program' : 'programs'}`;
+    document.querySelector('#results-count').textContent = `${visible} ${visible === 1 ? 'class' : 'classes'}`;
     document.querySelector('#no-results').hidden = visible !== 0;
     document.querySelector('.directory-head').hidden = visible === 0;
     document.querySelector('#placement-note').hidden = ['all','placement','baby'].includes(age.value);

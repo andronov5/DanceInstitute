@@ -1,6 +1,6 @@
 # Dance Institute of Denver
 
-A complete static website using warm beige, dark forest green, dusty pink, maroon details and a restrained wood trim, custom studio crest and ribbon-and-branch illustration. The studio directory replaces the original landing-page redesign with compact pages and direct navigation.
+A simple static website using warm beige, forest green, pink accents and a restrained wood trim. A shared directory keeps all original pages accessible. Home has three main actions; secondary information opens in native accordions.
 
 ## Pages
 
@@ -25,19 +25,19 @@ The original main navigation and child-page paths are preserved:
 
 No installation or production build is required. Serve this directory with any static host. The generated HTML files are already included and can be opened directly.
 
-- `styles.css`: palette, navigation, responsive layouts; 16px main text and controls, 14px secondary text, and 12px decorative labels.
-- `studio-seal.svg`, `studio-sprig.svg`, `woodgrain.svg`: lightweight vector identity details.
+- `styles.css`: palette, navigation and responsive layouts; 16px main text and controls, with 14px secondary text.
+- `studio-seal.svg`, `studio-sprig.svg`, `woodgrain.svg`: lightweight vector identity assets. The seal and wood trim appear in the simplified layout.
 - `script.js`: navigation and class filtering.
 - `classes.json`: class directory data.
 - `page-content.json`: supporting page copy.
 - `build.py`: shared layout, Home and Dance Classes templates.
 - `source-notes.json`: verified sources and known content gaps.
 
-After editing templates or JSON, run `python build.py`. This uses only Python’s standard library and regenerates all 13 pages. All local paths are relative, including nested About pages, so the site also works under a GitHub Pages repository prefix.
+After editing templates or JSON, run `python build.py`. This uses only Python’s standard library and regenerates all 13 pages. All local paths are relative, including nested About pages, so the site also works under a GitHub Pages repository prefix. Content hashes on CSS and JavaScript URLs prevent stale assets after an update. The `.nojekyll` file enables direct static publication.
 
 ## Functional behavior
 
-Classes are rendered in HTML and remain readable without JavaScript. Filters combine age, style and search; class details expand in place. Combination classes appear under their individual dance styles. Unknown age/level programs have their own placement filter rather than being presented as age-eligible. Filter URLs are shareable. Mobile navigation and submenu controls use explicit expanded states, and the full navigation remains visible without JavaScript.
+Classes are rendered in HTML and remain readable without JavaScript. Filters combine age, style and search; class descriptions and durations expand in place. Combination classes appear under their individual dance styles. Unknown age/level programs have their own placement filter rather than being presented as age-eligible. Filter URLs are shareable. Mobile navigation and submenu controls use explicit expanded states, and the full navigation remains visible without JavaScript.
 
 Sawyer handles real memberships, trials, payment and enrollment. Telephone and map links use the verified studio contact details. There is no simulated form submission or invented timetable.
 
